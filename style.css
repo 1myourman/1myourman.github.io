@@ -1,0 +1,155 @@
+/* what declarations are need in beginning of CSS? */
+
+* {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+ul,
+ol,
+li {
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+ul {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+/* nav bar */
+.nav {
+	display: flex;
+	position: fixed; /* what's different from absolute? */
+	width: 100%;
+	background-color: #2d66c2;
+}
+
+.navlist {
+	font-weight: 700;
+	font-size: 36px; /* need to see for change */
+	color: #f5ead0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navlist li {
+	float: left;
+	text-align: center;
+}
+
+.navlist a {
+	display: block;
+	padding: 8px;
+}
+
+/* welcome section */
+.welcome-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: rgb(63, 94, 251);
+	background: radial-gradient(
+		circle,
+		rgba(63, 94, 251, 1) 0%,
+		rgba(91, 90, 229, 1) 7%,
+		rgba(117, 87, 210, 1) 19%,
+		rgba(167, 80, 172, 1) 61%,
+		rgba(193, 77, 152, 1) 81%,
+		rgba(218, 74, 133, 1) 92%,
+		rgba(252, 70, 107, 1) 100%
+	);
+	height: 100vh;
+}
+
+.welcome-section h1 {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+/* projects section */
+.projects {
+	text-align: center;
+	padding: 10rem 2rem;
+	background: rgb(238, 174, 202);
+	background: linear-gradient(
+		90deg,
+		rgba(238, 174, 202, 1) 0%,
+		rgba(204, 179, 214, 1) 38%,
+		rgba(216, 177, 210, 1) 65%,
+		rgba(148, 187, 233, 1) 100%
+	);
+}
+
+.projects-header {
+	max-width: 640px;
+	margin: 0 auto 6rem auto;
+	border-bottom: 1rem solid #81a7e3;
+	font-size: 3.2rem;
+	font-weight: 700;
+}
+
+.projects-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 4rem;
+	/* use of grid-template-columns and grid-gap should be checked again */
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-bottom: 6rem;
+}
+
+.projects-image {
+	display: block;
+	height: calc(100% - 6.8rem);
+	width: 100%;
+	object-fit: cover; /* what is object fit? */
+}
+
+/* contact section */
+.contact-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 80vh;
+	background-color: #8ec5fc;
+	background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.contact-links {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 980px;
+	margin-top: 4rem;
+	flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 768px) {
+}

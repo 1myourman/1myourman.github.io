@@ -48,7 +48,7 @@ p {
 
 .navlist {
 	font-weight: 700;
-	font-size: 36px; /* need to see for change */
+	font-size: 1.2rem; /* need to see for change */
 	color: #f5ead0;
 	margin: 0;
 	padding: 0;
@@ -70,6 +70,7 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	width: 100%;
 	background: rgb(238, 174, 202);
 	background: linear-gradient(
@@ -86,16 +87,23 @@ p {
 }
 
 .welcome-section h1 {
-	font-size: 2rem;
+	font-size: 1.6rem;
 	font-weight: 700;
 	color: #080808;
-	margin-bottom: 2em;
+	margin-bottom: 3rem;
 }
 
 .welcome-section p {
-	font-weight: 500;
-	font-style: oblique;
+	font-weight: 300;
+	font-style: normal;
 	font-size: 1.4em;
+	color: #d3d9e3;
+}
+
+.welcome-section em {
+	font-weight: 700;
+	font-style: oblique;
+	color: #000000;
 }
 
 /* projects section */
@@ -117,7 +125,7 @@ p {
 	max-width: 640px;
 	margin: 0 auto 6rem auto;
 	border-bottom: solid #656b75;
-	font-size: 2rem;
+	font-size: 1.4rem;
 	font-weight: 700;
 }
 
@@ -167,7 +175,7 @@ p {
 	background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 .contact-header h2 {
-	font-size: 4rem;
+	font-size: 2rem;
 }
 
 .contact-header p {
@@ -197,6 +205,10 @@ p {
 	/* nav */
 	.nav {
 		flex-direction: column;
+	}
+
+	.navlist {
+		font-size: 2.5rem;
 	}
 
 	/* welcome section */

@@ -43,13 +43,13 @@ p {
 	align-items: center;
 	position: fixed; /* what's different from absolute? */
 	width: 100%;
-	background-color: #2d66c2;
+	background-color: #d974b4;
 }
 
 .navlist {
 	font-weight: 700;
 	font-size: 1.2rem; /* need to see for change */
-	color: #f5ead0;
+	color: #f1efea;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -74,7 +74,7 @@ p {
 	width: 100%;
 	background: rgb(238, 174, 202);
 	background: linear-gradient(
-		90deg,
+		45deg,
 		rgba(238, 174, 202, 1) 0%,
 		rgba(229, 135, 185, 1) 20%,
 		rgba(217, 87, 165, 1) 34%,
@@ -96,13 +96,14 @@ p {
 .welcome-section p {
 	font-weight: 300;
 	font-style: normal;
-	font-size: 1.4em;
+	font-size: 1em;
 	color: #d3d9e3;
 }
 
 .welcome-section em {
 	font-weight: 700;
 	font-style: oblique;
+	font-size: 1.4em;
 	color: #000000;
 }
 

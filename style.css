@@ -168,6 +168,46 @@ p {
 	object-fit: scale-down; /* first time using object-fit */
 }
 
+/* daily-record section */
+.daily-record {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10rem 2rem;
+	background-color: rgba(229, 135, 185, 1);
+	width: 100%;
+	height: 100vh;
+	border-bottom: 1rem solid #e0c3fc;
+}
+
+.daily-welcome {
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #080808;
+	margin-bottom: 2rem;
+}
+
+.daily-example {
+	display: grid;
+	grid-gap: 4rem;
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	margin-bottom: 6rem;
+}
+
+.daily-link {
+	border-left: #656b75;
+	box-shadow: 1px 1px 2px rgb(0 0 0/50%);
+}
+
+.daily-img {
+	display: block;
+	width: 80%;
+	object-fit: scale-down;
+}
+
 /* contact section */
 .contact-section {
 	display: flex;
@@ -231,7 +271,16 @@ p {
 	}
 
 	.projects-grid {
-		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+	}
+
+	/* daily section */
+	.daily-example {
+		flex-direction: row;
+	}
+
+	.daily-welcome {
+		font-size: 3.3em;
 	}
 
 	/* contact section */

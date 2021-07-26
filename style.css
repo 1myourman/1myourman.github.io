@@ -170,27 +170,24 @@ p {
 
 /* daily-record section */
 .daily-record {
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	text-align: center;
 	padding: 10rem 2rem;
 	background-color: rgba(229, 135, 185, 1);
-	width: 100%;
-	height: 100vh;
 	border-bottom: 1rem solid #e0c3fc;
 }
 
 .daily-welcome {
+	max-width: 640px;
+	margin: 0 auto 6rem auto;
+	border-bottom: solid #080808;
 	font-size: 1.4rem;
-	font-weight: 500;
-	color: #080808;
-	margin-bottom: 2rem;
+	font-weight: 700;
 }
 
 .daily-example {
 	display: grid;
 	grid-gap: 4rem;
+	/* use of grid-template-columns and grid-gap should be checked again */
 	width: 100%;
 	max-width: 1280px;
 	margin: 0 auto;
@@ -198,13 +195,14 @@ p {
 }
 
 .daily-link {
-	border-left: #656b75;
+	background-color: #8eb0e8;
 	box-shadow: 1px 1px 2px rgb(0 0 0/50%);
 }
 
 .daily-img {
 	display: block;
-	width: 80%;
+	height: calc(100% - 6.8rem);
+	width: 100%;
 	object-fit: scale-down;
 }
 
@@ -276,7 +274,7 @@ p {
 
 	/* daily section */
 	.daily-example {
-		flex-direction: row;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
 	}
 
 	.daily-welcome {

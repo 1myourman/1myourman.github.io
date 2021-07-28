@@ -112,8 +112,8 @@ p {
 	text-decoration: underline;
 }
 
-/* projects section */
-.projects {
+/* projects & daily section */
+.grid-section {
 	text-align: center;
 	padding: 10rem 2rem;
 	background: rgb(238, 174, 202);
@@ -127,15 +127,14 @@ p {
 	border-bottom: 1rem solid #e0c3fc;
 }
 
-.projects-header {
+.grid-header {
 	max-width: 640px;
 	margin: 0 auto 6rem auto;
-	border-bottom: solid #656b75;
 	font-size: 1.4rem;
 	font-weight: 700;
 }
 
-.projects-grid {
+.grids {
 	display: grid;
 	grid-gap: 4rem;
 	/* use of grid-template-columns and grid-gap should be checked again */
@@ -145,65 +144,27 @@ p {
 	margin-bottom: 6rem;
 }
 
-.projects-link {
+.grid-link {
 	background-color: #8eb0e8;
 	box-shadow: 1px 1px 2px rgb(0 0 0/50%);
 }
 
-.projects-title {
+.grid-title {
 	text-align: center;
 	font-size: 2em;
 	font-weight: 500;
 	padding: 0.5em 0.5em;
 }
 
-.projects-title:hover {
+.grid-title:hover {
 	font-weight: bold;
 }
 
-.projects-image {
+.grid-image {
 	display: block;
 	height: calc(100% - 6.8rem);
 	width: 100%;
 	object-fit: scale-down; /* first time using object-fit */
-}
-
-/* daily-record section */
-.daily-record {
-	text-align: center;
-	padding: 10rem 2rem;
-	background-color: rgba(229, 135, 185, 1);
-	border-bottom: 1rem solid #e0c3fc;
-}
-
-.daily-welcome {
-	max-width: 640px;
-	margin: 0 auto 6rem auto;
-	border-bottom: solid #080808;
-	font-size: 1.4rem;
-	font-weight: 700;
-}
-
-.daily-example {
-	display: grid;
-	grid-gap: 4rem;
-	/* use of grid-template-columns and grid-gap should be checked again */
-	width: 100%;
-	max-width: 1280px;
-	margin: 0 auto;
-	margin-bottom: 6rem;
-}
-
-.daily-link {
-	background-color: #8eb0e8;
-	box-shadow: 1px 1px 2px rgb(0 0 0/50%);
-}
-
-.daily-img {
-	display: block;
-	height: calc(100% - 6.8rem);
-	width: 100%;
-	object-fit: scale-down;
 }
 
 /* contact section */

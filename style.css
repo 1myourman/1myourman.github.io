@@ -43,7 +43,7 @@ p {
 	align-items: center;
 	position: fixed; /* what's different from absolute? */
 	width: 100%;
-	background-color: #d974b4;
+	background-color: #f88ee3;
 }
 
 .navlist {
@@ -88,21 +88,21 @@ p {
 
 .welcome-section h1 {
 	font-size: 1.6rem;
-	font-weight: 700;
+	font-weight: 500;
 	color: #080808;
 	margin-bottom: 3rem;
 }
 
 .welcome-section p {
 	font-weight: 300;
-	font-style: normal;
+	font-style: italic;
 	font-size: 1em;
 	color: #d3d9e3;
 }
 
-.welcome-section em {
+.welcome-section strong {
 	font-weight: 700;
-	font-style: oblique;
+	font-style: normal;
 	font-size: 1.4em;
 	color: #000000;
 }
@@ -145,15 +145,15 @@ p {
 }
 
 .grid-link {
-	background-color: #8eb0e8;
+	background-color: #f79de5;
 	box-shadow: 1px 1px 2px rgb(0 0 0/50%);
 }
 
 .grid-title {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 500;
-	padding: 0.5em 0.5em;
+	padding: 0.3em 0.3em;
 }
 
 .grid-title:hover {
@@ -249,5 +249,11 @@ p {
 
 	.contact-header p {
 		font-size: 2.5em;
+	}
+
+	/* grid */
+	.grid-title {
+		font-size: 2em;
+		padding: 0.5em 0.5em;
 	}
 }

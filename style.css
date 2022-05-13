@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: "Quicksand", sans-serif;
+	font-family: Times, "Times New Roman", Georgia, serif;
 }
 
 ul,
@@ -44,6 +44,7 @@ p {
 	position: fixed; /* what's different from absolute? */
 	width: 100%;
 	background-color: #9694f4;
+	font-family: "Quicksand", sans-serif;
 }
 
 .navlist {
@@ -79,37 +80,28 @@ p {
 	height: 100vh;
 	background: linear-gradient(
 		90deg,
-		rgba(143, 114, 154, 1) 7%,
-		rgba(66, 65, 115, 1) 29%,
-		rgba(66, 65, 115, 1) 48%,
-		rgba(38, 38, 65, 1) 100%
+		rgba(137, 153, 245, 1) 38%,
+		rgba(113, 164, 247, 1) 74%,
+		rgba(77, 179, 249, 1) 92%,
+		rgba(0, 212, 255, 1) 100%
 	);
 	border-bottom: 1rem solid rgb(143, 114, 154);
 }
 
 .welcome-section h1 {
 	font-size: 1.6rem;
-	font-weight: 500;
-	color: #ffffff;
+	color: #f0f8ff;
 	margin-bottom: 3rem;
 }
 
 .welcome-section p {
 	font-weight: 300;
-	font-style: italic;
 	font-size: 1em;
-	color: #ffffff;
-}
-
-.welcome-section strong {
-	font-weight: 700;
-	font-style: normal;
-	font-size: 1.4em;
-	color: #ffffff;
+	color: #f0f8ff;
+	padding: 10px;
 }
 
 .welcome-section a {
-	font-weight: 500;
 	text-decoration: underline;
 }
 
@@ -145,19 +137,15 @@ p {
 }
 
 .grid-link {
-	background-color: rgb(143, 114, 154);
+	background-color: #9694f4;
 	box-shadow: 1px 1px 2px rgb(0 0 0/50%);
 }
 
 .grid-title {
 	text-align: center;
-	font-size: 1.5em;
-	font-weight: 500;
+	color: #f0f8ff;
+	font-size: 1.3em;
 	padding: 0.3em 0.3em;
-}
-
-.grid-title:hover {
-	font-weight: bold;
 }
 
 .grid-image {
@@ -178,11 +166,12 @@ p {
 	height: 80vh;
 	background: linear-gradient(
 		90deg,
-		rgba(143, 114, 154, 1) 0%,
-		rgba(66, 65, 115, 1) 8%,
-		rgba(66, 65, 115, 1) 21%,
-		rgba(150, 148, 244, 1) 51%
+		rgba(137, 153, 245, 1) 38%,
+		rgba(113, 164, 247, 1) 74%,
+		rgba(77, 179, 249, 1) 92%,
+		rgba(0, 212, 255, 1) 100%
 	);
+	color: aliceblue;
 }
 .contact-header h2 {
 	font-size: 2rem;
